@@ -49,3 +49,76 @@ p{
     padding: 20px;
     margin: 20px;
 }
+
+.cuadro1{
+    width:180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: aqua;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    position: static;
+
+}
+
+.cuadro2{
+    width: 180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: aqua;
+    
+    font-family: fantasy;
+    font-size: 20px;
+    
+    position: relative;
+}
+.cuadro3{
+    width: 180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: aqua;
+    
+    font-family: fantasy;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    
+}
+.cuadro4{
+    width: 180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(rgb(212, 0, 255), rgb(109, 128, 0), alpha);
+
+    margin: 20px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    position: absolute;
+    top:40px;
+    right: 40px;
+}
+.flotante{
+    width: 20%;
+    height: 20%;
+    right: 10%;
+    border:black solid;
+    padding: 10px;
+    background-color: aqua;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: left;
+    margin: 20px;
+    top: 40px;
+    right: 48px;
+
+}
